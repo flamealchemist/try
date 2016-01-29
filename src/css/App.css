@@ -1,0 +1,224 @@
+.container1{
+	margin-left:40px; 
+}
+@media screen and min-width 1px and max-width 767px {
+    #columns[data-columns]::before {
+        content: '2 .col-xs-6';
+    }
+ 
+}
+ 
+@media screen and min-width768px and max-width 991px {
+    #columns[data-columns]::before {
+        content: '3 .col-sm-4';
+    }
+ 
+}
+ 
+@media screen and min-width992px and max-width 9999px {
+    #columns[data-columns]::before {
+        content: '4 .col-md-3';
+    }
+ 
+}
+#columns[data-columns]::before {
+     content: '4 .column.size-1of3';
+}       
+.column { float: left; }
+.size-1of3 { width: 25%; }
+
+@font-face {
+	font-family: H1;
+	src :("AHAMONO-Regular.otp");
+}
+
+@font-face {
+	font-family: H2;
+	src :("JosefinSlab-SemiBold.ttf");
+}
+h1 {
+	text-align: center;
+	font-size: 45px;
+	font-family: 'Raleway', sans-serif;
+	color: #eeeeee;
+}
+
+.heading{
+	font-size: 30px;
+	font-family: 'Raleway', sans-serif;
+	color: #eeeeee;
+	position: relative;
+	float: left;
+	margin-left: 10px;
+}
+.heading a {
+	font-size: 30px;
+	font-family: 'Raleway', sans-serif;
+	color: #eeeeee;
+	position: relative;
+}
+h2 {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	color: #ffffff;
+	z-index: 100;
+	position: relative;
+	background: #444444;
+
+}
+.center{
+	position: relative;
+}
+
+.searchBar{
+	margin-left: 20px;
+	z-index: 1000;
+	width: 100%;
+	height: auto;
+	background: #444444;
+	position: fixed;
+	z-index: 1000;
+}
+.random{
+	margin-left: 80px;
+}
+.header{
+	background: #444444; 
+	position: fixed;
+    height: 60px;
+    width: 100%;
+    z-index: 150;
+}
+.result {
+	margin-top: 60px;
+	background-color: #dddddd;
+	position: absolute;
+	z-index: 100;
+	width: 89%;
+	margin-left: 80px;
+	margin-right: 80px;
+}
+.resultcont{
+	margin-left: 20px;
+	background-color: #000000;
+}
+input{
+	height: 30px;
+	font-family: 'Raleway', sans-serif;
+	margin-right: 20px;
+	border-radius: 10px;
+	font-size: 15px;
+	background: #eeeeee;
+	margin-bottom: 20px;
+	float: left;
+	margin-top: 10px; 
+}
+
+input:hover{
+	border-color: #dddddd;
+}
+.a1 {
+
+}
+
+figure{
+	float: left;
+	font-family: H1;
+	width: 373px;
+	height: 360px;
+	margin-top: 20px;
+	margin-left: 20px;
+	
+}
+
+figure img{
+	width: 373px;
+	height: 360px;
+	position: absolute;
+	z-index: 10;
+	border-radius: 20px;
+}
+
+.fig{
+	height: 360px;
+	width: 373px;
+	z-index: 20;
+	position: absolute;
+	padding-top: 100px; 
+	opacity: 0.0;
+	background: #eeeeee;
+	border-radius: 20px;
+	transition: opacity 1s;
+}
+
+.fig:hover{
+	opacity: 0.7;
+}
+figure p{
+	text-align: center;
+
+	margin: 0px;
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+}
+
+select{
+	height: 30px;
+	font-family: 'Raleway', sans-serif;
+	margin-right: 20px;
+	border-radius: 10px;
+	font-size: 15px;
+	background: #eeeeee;
+	margin-bottom: 20px;
+	float: left;
+	margin-top: 10px; 
+}
+
+.text{
+	background-color: #ffffff;
+	width:360;
+	margin-left: 280px;
+}
+.button{
+	background: #444444;
+	color: #ffffff; 
+}
+
+.panel-style{
+	background-color: #eeeeee;
+	width: 220px;
+	padding: 10px;
+	margin: 15px;
+	margin-left: 35px;
+	border-radius: 5px;
+	position: relative;
+	float: left;
+	text-align: center;
+}
+.image{
+	width: 200px;
+	height: 240px;
+}
+.panel-style:p{
+	margin: 0px;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+}
+.user{
+	margin: 0px;
+	margin-top: 20px;
+	font-family: 'Raleway', sans-serif;
+	border-bottom: solid #444444;
+
+}
+.links{
+	text-align: center;
+	color: #444444;
+	float: left;
+	width: 50%;
+}
+.links:a{
+	text-decoration: none;
+}
+
+
