@@ -21,7 +21,7 @@ var AppStore = createStore({
 	},
 
 	updateGif: function(payload){
-		console.log("store update\n");
+		console.log("store update\n", payload);
 		this.state.label = payload.label;
 		this.state.gifs = payload.results;
 		console.log(this.state.gifs);
